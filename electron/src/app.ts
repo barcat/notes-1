@@ -17,6 +17,6 @@ if (process.env.NODE_ENV === 'DEV') {
 app.on('ready', () => {
   // tslint:disable-next-line:no-console
   console.log('3');
-  const window = new BrowserWindow({ width: 800, height: 600 })
+  const window = new BrowserWindow({ width: 800, height: 600 });
   window.loadURL(url);
 });
