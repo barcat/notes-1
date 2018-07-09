@@ -6,6 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "build-e": "tsc -p electron/tsconfig.json",
     "dev": "vue-cli-service serve & sleep 5 && NODE_ENV=DEV electron electron/build/app.js" 
   },
   "dependencies": {
